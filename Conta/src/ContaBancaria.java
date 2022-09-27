@@ -19,6 +19,9 @@ public class ContaBancaria {
     	return MSG_DEPOSITO_SUCESSO;
     }
     
+    /*
+   * Method that returns the balance of the current account.
+   */
     public double getSaldo() {
 	return this.saldo;
     }

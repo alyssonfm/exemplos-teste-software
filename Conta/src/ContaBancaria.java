@@ -1,6 +1,4 @@
-/*
-* Class for representing an account for learning purposes.
-*/
+
 public class ContaBancaria {
     
     static String MSG_VALOR_MENOR_10 = "O valor de depósito deve ser maior do que R$ 9.99";

@@ -1,8 +1,0 @@
-Movie
-Customer
-CustomerR
-ChildrensPrice
-NewReleasePrice
-Price
-Rental
-RegularPrice

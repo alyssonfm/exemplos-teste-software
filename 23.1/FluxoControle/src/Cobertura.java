@@ -1,25 +1,24 @@
 public class Cobertura {
 	private int x, y;
 	
-	public void nivel1(int a, int b) {
-		if(a > 0) {
-			x = x + 1;
-		}
-		if(b == 3) {
-			y = 0;
-		}
+	public Cobertura() {
+		x = 0;
+		y = 0;
 	}
+	
+	public void nivel1(int a, int b) { //1
+		if(a > 0) { //1
+			x = x + 1; //2
+		} //2 
+		if(b == 3) { //3
+			y = 0; //4
+		} //4
+	} //5
 	
 	public static void main(String[] args) {
 		Cobertura c = new Cobertura();
-		// Cobertura de instrucoes
-		// 1o e 2o ifs verdadeiros
-		c.nivel1(-2, 2);
-		// 1o e 2o ifs falsos
-		c.nivel1(4, 3);
-		// 1o V e 2o F
-		//c.nivel1(1, 0);
-		// 1o F e 2o V
-		//c.nivel1(0, 3);
+		c.nivel1(1, 3); // 1 - 2 - 3 - 4 - 5
+		c.nivel1(0, 3); // 1 - 3 - 4 - 5
+		c.nivel1(0, 0); // 1 - 3 - 5		
 	}
 }

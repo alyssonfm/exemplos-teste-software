@@ -36,8 +36,8 @@ class TestaBoleto {
 		Date i, f;
 		double valor = 500.00;
 		try {
-			i = dateFormat.parse("15/09/2023");
-			f = dateFormat.parse("15/10/2023");
+			i = dateFormat.parse("28/09/2023");
+			f = dateFormat.parse("28/10/2023");
 			assertEquals(505.00, b.calculaValorAPagar(valor, i, f));
 		} catch (ParseException e) {
 			e.printStackTrace();

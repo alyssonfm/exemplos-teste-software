@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PessoaTest
+comment0.text=\n\ A\ classe\ de\ teste\ PessoaTest.\n\n\ @author\ \ (seu\ nome)\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\n\ Define\ a\ 'fixture'\ do\ teste.\n\n\ Chamado\ antes\ de\ cada\ m\u00E9todo\ de\ caso\ de\ teste.\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\n\ Desfaz\ a\ 'fixture'\ do\ teste.\n\n\ Chamado\ ap\u00F3s\ cada\ m\u00E9todo\ de\ teste\ de\ caso.\n
+comment3.params=
+comment3.target=void\ testConst()
+comment4.params=
+comment4.target=void\ testIdade()
+numComments=5

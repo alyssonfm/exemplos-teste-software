@@ -9,13 +9,19 @@ public class Account {
 	}
 	
 	public double withdraw(double amount){
-		this.balance -= amount;
+		if(amount <= balance)
+			this.balance -= amount;
 		return balance;
 	}
 	
 	public double deposit(double amount){
-		this.balance += amount;
+		if(amount >= 0)
+			this.balance += amount;
 		return balance;
+	}
+	
+	public double getBalance() {
+		return this.balance;
 	}
 
 }

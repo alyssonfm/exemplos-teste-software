@@ -1,0 +1,275 @@
+{
+  "id": "6e932477-33f8-4f2b-8e22-00b78ea08f80",
+  "version": "2.0",
+  "name": "Testandoo",
+  "url": "https://srs.ufersa.edu.br",
+  "tests": [{
+    "id": "c5006434-12fa-4a3a-b261-fe70b2282a2c",
+    "name": "Usando o SRS",
+    "commands": [{
+      "id": "ed45277b-ba22-4efd-946c-1a44dd9797ff",
+      "comment": "",
+      "command": "open",
+      "target": "/Sistema_Reserva_de_Salas/index.jsf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed8d48cd-f96d-4ff2-99bb-f4bfbe9a712a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1022x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "107606ef-3b8c-4d19-99df-10f79612c8cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt13:login",
+      "targets": [
+        ["id=j_idt13:login", "id"],
+        ["name=j_idt13:login", "name"],
+        ["css=#j_idt13\\3Alogin", "css:finder"],
+        ["xpath=//input[@id='j_idt13:login']", "xpath:attributes"],
+        ["xpath=//form[@id='j_idt13']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "alyssonmilanez"
+    }, {
+      "id": "481cb93d-5339-4e81-af57-d94b0ef07100",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt13:senha",
+      "targets": [
+        ["id=j_idt13:senha", "id"],
+        ["name=j_idt13:senha", "name"],
+        ["css=#j_idt13\\3Asenha", "css:finder"],
+        ["xpath=//input[@id='j_idt13:senha']", "xpath:attributes"],
+        ["xpath=//form[@id='j_idt13']/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "b6bce721-41a0-49f8-b552-5734a13f8479",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button-text",
+      "targets": [
+        ["css=.ui-button-text", "css:finder"],
+        ["xpath=//button[@id='j_idt13:j_idt19']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08158f85-c478-49b4-ba5a-cebf582e8b3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-menuitem-active:nth-child(1) .ui-menuitem-text",
+      "targets": [
+        ["css=.ui-menuitem-active:nth-child(1) .ui-menuitem-text", "css:finder"],
+        ["xpath=//div[@id='j_idt13:j_idt15']/ul/li[2]/ul/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Nova Reserva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99be0195-bc4e-49e0-a76c-52b61c8f22bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=formReserva:data_input",
+      "targets": [
+        ["id=formReserva:data_input", "id"],
+        ["name=formReserva:data_input", "name"],
+        ["css=#formReserva\\3A data_input", "css:finder"],
+        ["xpath=//input[@id='formReserva:data_input']", "xpath:attributes"],
+        ["xpath=//span[@id='formReserva:data']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c082187-4677-425d-b34c-dba4034a1614",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=12",
+      "targets": [
+        ["linkText=12", "linkText"],
+        ["css=.ui-state-highlight", "css:finder"],
+        ["xpath=//a[contains(text(),'12')]", "xpath:link"],
+        ["xpath=//div[@id='formReserva:data_panel']/div/div[2]/table/tbody/tr[2]/td[6]/a", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'12')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e916b793-5b6b-417a-89c5-552752ef877b",
+      "comment": "",
+      "command": "click",
+      "target": "id=formReserva:horaInicio_input",
+      "targets": [
+        ["id=formReserva:horaInicio_input", "id"],
+        ["name=formReserva:horaInicio_input", "name"],
+        ["css=#formReserva\\3AhoraInicio_input", "css:finder"],
+        ["xpath=//input[@id='formReserva:horaInicio_input']", "xpath:attributes"],
+        ["xpath=//span[@id='formReserva:horaInicio']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "000d4a24-b04a-4c0e-9136-28f568f9ba2f",
+      "comment": "",
+      "command": "type",
+      "target": "id=formReserva:horaInicio_input",
+      "targets": [
+        ["id=formReserva:horaInicio_input", "id"],
+        ["name=formReserva:horaInicio_input", "name"],
+        ["css=#formReserva\\3AhoraInicio_input", "css:finder"],
+        ["xpath=//input[@id='formReserva:horaInicio_input']", "xpath:attributes"],
+        ["xpath=//span[@id='formReserva:horaInicio']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": "15:00"
+    }, {
+      "id": "06dc8e29-1682-44a0-acb5-68ef48a7607b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-card-body",
+      "targets": [
+        ["css=.ui-card-body", "css:finder"],
+        ["xpath=//div[@id='formReserva:j_idt42']/div", "xpath:idRelative"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b820146-c944-4af7-95ea-191e8bf6416e",
+      "comment": "",
+      "command": "click",
+      "target": "id=formReserva:horaFim_input",
+      "targets": [
+        ["id=formReserva:horaFim_input", "id"],
+        ["name=formReserva:horaFim_input", "name"],
+        ["css=#formReserva\\3AhoraFim_input", "css:finder"],
+        ["xpath=//input[@id='formReserva:horaFim_input']", "xpath:attributes"],
+        ["xpath=//span[@id='formReserva:horaFim']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "015ea987-2c27-40eb-ad25-6468fbf848d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=formReserva:horaFim_input",
+      "targets": [
+        ["id=formReserva:horaFim_input", "id"],
+        ["name=formReserva:horaFim_input", "name"],
+        ["css=#formReserva\\3AhoraFim_input", "css:finder"],
+        ["xpath=//input[@id='formReserva:horaFim_input']", "xpath:attributes"],
+        ["xpath=//span[@id='formReserva:horaFim']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/span/input", "xpath:position"]
+      ],
+      "value": "16:00"
+    }, {
+      "id": "5e3b64a8-7004-4ef2-aac5-3e0c0b818ad6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-card-body",
+      "targets": [
+        ["css=.ui-card-body", "css:finder"],
+        ["xpath=//div[@id='formReserva:j_idt42']/div", "xpath:idRelative"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7ef1c98-54ef-4e10-b900-3d8123d2eb6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=formReserva:finalidade",
+      "targets": [
+        ["id=formReserva:finalidade", "id"],
+        ["name=formReserva:finalidade", "name"],
+        ["css=#formReserva\\3A finalidade", "css:finder"],
+        ["xpath=//textarea[@id='formReserva:finalidade']", "xpath:attributes"],
+        ["xpath=//div[@id='formReserva:j_idt42']/div/div/div/div/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1400cd5f-daff-4498-ab74-4a28e7260ea2",
+      "comment": "",
+      "command": "type",
+      "target": "id=formReserva:finalidade",
+      "targets": [
+        ["id=formReserva:finalidade", "id"],
+        ["name=formReserva:finalidade", "name"],
+        ["css=#formReserva\\3A finalidade", "css:finder"],
+        ["xpath=//textarea[@id='formReserva:finalidade']", "xpath:attributes"],
+        ["xpath=//div[@id='formReserva:j_idt42']/div/div/div/div/div[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Teste...."
+    }, {
+      "id": "5e936bf4-64ef-4310-a206-472989ea1c0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#formReserva\\3Aj_idt54 > .ui-button-text",
+      "targets": [
+        ["css=#formReserva\\3Aj_idt54 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='formReserva:j_idt54']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be0b6d8a-cf97-4dde-8fec-e12cf554949d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sair",
+      "targets": [
+        ["linkText=Sair", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[@onclick='PrimeFaces.ab({s:\"j_idt13:j_idt30\",f:\"j_idt13\"});return false;']", "xpath:attributes"],
+        ["xpath=//div[@id='j_idt13:j_idt15']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sair')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "135fc306-987c-42ed-933c-47fe784c019f",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt13:login",
+      "targets": [
+        ["id=j_idt13:login", "id"],
+        ["name=j_idt13:login", "name"],
+        ["css=#j_idt13\\3Alogin", "css:finder"],
+        ["xpath=//input[@id='j_idt13:login']", "xpath:attributes"],
+        ["xpath=//form[@id='j_idt13']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "alyssonmilanez"
+    }, {
+      "id": "64ca7782-6387-4b1e-9b8a-2cd4470bee39",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt13:senha",
+      "targets": [
+        ["id=j_idt13:senha", "id"],
+        ["name=j_idt13:senha", "name"],
+        ["css=#j_idt13\\3Asenha", "css:finder"],
+        ["xpath=//input[@id='j_idt13:senha']", "xpath:attributes"],
+        ["xpath=//form[@id='j_idt13']/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "wAsF2rn"
+    }]
+  }],
+  "suites": [{
+    "id": "00aa8415-cafc-4d98-9622-0b315f0c56fc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c5006434-12fa-4a3a-b261-fe70b2282a2c"]
+  }],
+  "urls": ["https://srs.ufersa.edu.br/"],
+  "plugins": []
+}

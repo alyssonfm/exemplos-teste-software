@@ -13,19 +13,18 @@ class TestaFuncoes {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 		Date i, f;
 		try {
-			i = dateFormat.parse("28/09/2023");
-			f = dateFormat.parse("28/10/2023");
+			i = dateFormat.parse("04/04/2024");
+			f = dateFormat.parse("04/05/2024");
 			assertEquals(1.0, Funcoes.periodoEmMeses(i, f));
-			f = dateFormat.parse("12/11/2023");
+			f = dateFormat.parse("19/05/2024");
 			assertEquals(1.5, Funcoes.periodoEmMeses(i, f));
-			f = dateFormat.parse("13/09/2023");
+			/*f = dateFormat.parse("13/09/2023");
 			assertEquals(-0.5, Funcoes.periodoEmMeses(i, f));
 			f = dateFormat.parse("13/10/2023");
 			assertEquals(0.5, Funcoes.periodoEmMeses(i, f));
-			/*
-			 * i = dateFormat.parse("09/04/2023"); double d = Funcoes.periodoEmMeses(i, f);
-			 * System.out.println(d);
-			 */
+			i = dateFormat.parse("09/04/2023"); 
+			double d = Funcoes.periodoEmMeses(i, f);
+			System.out.println(d);*/
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}

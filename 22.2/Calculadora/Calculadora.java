@@ -1,18 +1,18 @@
-public class Calculadora{
-	private double valorA;
-	private double valorB;
-	
-	public Calculadora(double valorA, double valorB){
+public class Calculadora {
+	private int valorA;
+	private int valorB;
+
+	public Calculadora(int valorA, int valorB) {
 		super();
 		this.valorA = valorA;
 		this.valorB = valorB;
 	}
-	
-	public double somar(){
+
+	public int somar() {
 		return this.valorA + this.valorB;
 	}
-	
-	public double dividir(){
-		return this.valorA/this.valorB;
+
+	public int dividir() {
+		return this.valorA / this.valorB;
 	}
 }

@@ -1,0 +1,69 @@
+{
+  "id": "38ec1f17-c274-4363-9ed8-e97f704bbfe8",
+  "version": "2.0",
+  "name": "Alohaaa",
+  "url": "https://ufersa.edu.br",
+  "tests": [{
+    "id": "ccea5e87-cde7-4073-835e-2312434d2c67",
+    "name": "ColacaoGrau",
+    "commands": [{
+      "id": "5a9fa350-5de2-4558-b415-b55dabb5ba41",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56bf86db-2261-4d26-a8bc-2cf6de1e1743",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8a06f6e-1e43-4d48-af33-1e357b6b3475",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-8979 .fa",
+      "targets": [
+        ["css=#menu-item-8979 .fa", "css:finder"],
+        ["xpath=//li[@id='menu-item-8979']/a/span[2]/i", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d69faaf3-546a-440e-9019-c7f29494b5e5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#menu-item-8979 .fa",
+      "targets": [
+        ["css=#menu-item-8979 .fa", "css:finder"],
+        ["xpath=//li[@id='menu-item-8979']/a/span[2]/i", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbb0ba4d-205e-4d01-9717-eab53fce5499",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active img",
+      "targets": [
+        ["css=.active img", "css:finder"],
+        ["xpath=//img[@title='Colação-de-Grau-2024-1-(banner-de-site)']", "xpath:img"],
+        ["xpath=//div[@id='carousel-noticias']/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "564eed47-3bc1-472f-96c2-eb85e4d43d57",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ccea5e87-cde7-4073-835e-2312434d2c67"]
+  }],
+  "urls": ["https://ufersa.edu.br/"],
+  "plugins": []
+}

@@ -16,10 +16,9 @@ public class Boleto {
 		JOptionPane.showMessageDialog(null, "Valor Final: " + valorFinal);
 	}
 
-	/*
-	 * public double stubCalculaValorAPagar(double valor, Date vcto, Date pgto) {
-	 * return valor; }
-	 */
+	public double stubCalculaValorAPagar(double valor, Date vcto, Date pgto) {
+		return valor;
+	}
 
 	public double calculaValorAPagar(double valor, Date vcto, Date pgto) {
 		double valorFinal;

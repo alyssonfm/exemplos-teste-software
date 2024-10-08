@@ -5,9 +5,9 @@ import java.util.Date;
 public class Funcoes {
 
 	// Aqui o stub de stringToDate
-	/*
-	 * public static Date stubStringToDate(String dataStr) { return new Date(); }
-	 */
+	public static Date stubStringToDate(String dataStr) {
+		return new Date();
+	}
 
 	public static Date stringToDate(String dataStr) {
 		Date objDate;
@@ -20,9 +20,9 @@ public class Funcoes {
 		return objDate;
 	}
 
-	/*
-	 * public static double stubPeriodoEmMeses(Date ini, Date fim) { return 0; }
-	 */
+	public static double stubPeriodoEmMeses(Date ini, Date fim) {
+		return 0;
+	}
 
 	public static double periodoEmMeses(Date ini, Date fim) {
 		double meses;

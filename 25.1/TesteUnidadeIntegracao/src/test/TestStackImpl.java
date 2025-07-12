@@ -46,6 +46,10 @@ public class TestStackImpl {
 	@Test
 	public void testNumberElements() {
 		assertEquals(0, acc.numberElements());
+		acc.push(new CheckingAccount());
+		assertEquals(1, acc.numberElements());
+		acc.pop();
+		assertEquals(0, acc.numberElements());
 	}
 
 	@Test
@@ -88,4 +92,13 @@ public class TestStackImpl {
 		}
 		assertEquals(AccountStack.SIZE, acc.numberElements());
 	}
+	
+	@Test
+	public void testWithDraw() {
+		acc.push(new Account());
+		assertEquals(1000, acc.top().deposit(1000));
+		assertEquals(900, acc.top().withdraw(100));
+		assertEquals(900, acc.top().getBalance());
+	}
+	
 }

@@ -5,16 +5,15 @@ import java.util.Date;
 public class Funcoes {
 
 	public static Date stringToDate(String dataStr) {
-	    Date objDate;
-	    SimpleDateFormat formatador = new SimpleDateFormat("dd/MM/yyyy");
-	    try {
-	    	objDate = formatador.parse(dataStr);
-	    } catch (ParseException e) {
-	    	objDate = null;
-	    }
-	    return objDate;
+		Date objDate;
+		SimpleDateFormat formatador = new SimpleDateFormat("dd/MM/yyyy");
+		try {
+			objDate = formatador.parse(dataStr);
+		} catch (ParseException e) {
+			objDate = null;
+		}
+		return objDate;
 	}
-
 
 	public static double periodoEmMeses(Date ini, Date fim) {
 		double meses;

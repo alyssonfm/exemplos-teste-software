@@ -39,6 +39,7 @@ public class AccountStackImpl implements AccountStack {
 	}
 
 	public Account top() {
+		if(isEmpty()) return null;
 		return elementsStack[numberOfElements-1];
 	}
 

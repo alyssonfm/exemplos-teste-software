@@ -1,0 +1,54 @@
+{
+  "id": "a5fa02c4-39d7-41ba-ad6b-403e5c0c12e0",
+  "version": "2.0",
+  "name": "Teste-26-1",
+  "url": "https://ufersa.edu.br",
+  "tests": [{
+    "id": "a3e3e604-14e6-4847-a798-d5a0b8a67383",
+    "name": "Aloha",
+    "commands": [{
+      "id": "c3e18f56-eacb-4939-a28c-6dcb6ee84e16",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ceb7e452-815c-4925-9a70-2fa676b40495",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "800x600",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ce3f9ac-e4c5-4790-8fa8-55d054fa2a96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > a > img",
+      "targets": [
+        ["css=.active > a > img", "css:finder"],
+        ["xpath=//img[@title='banner_ICEDITAISl']", "xpath:img"],
+        ["xpath=//div[@id='carousel-noticias']/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62c1c9e6-08f6-4e5f-b97f-3fd9b96ae82a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "821e93a5-fd64-45d1-ac85-ca278667f038",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a3e3e604-14e6-4847-a798-d5a0b8a67383"]
+  }],
+  "urls": ["https://ufersa.edu.br/"],
+  "plugins": []
+}
